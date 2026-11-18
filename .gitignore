@@ -1,0 +1,16 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+
+# 环境变量和密钥
+.env
+
+# 本地聊天记录
+chat_history.json
+
+# 编辑器配置
+.vscode/
