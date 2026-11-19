@@ -1,6 +1,7 @@
 from openai import OpenAI, OpenAIError
 import os,json
 #chat_history.json文件将保存聊天记录，确保在同一目录下运行此脚本
+#test branch switch
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 HISTORY_FILE = os.path.join(BASE_DIR, "chat_history.json")
@@ -83,5 +84,6 @@ def main():
                         ask_ai(messages, question)
                 except OpenAIError as e:
                         print(f"发生错误: {e}")
+
 if __name__ == "__main__":
         main()                        
